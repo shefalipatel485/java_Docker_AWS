@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	@GetMapping("/")
     public String home() {
-        return "✅ Hello from AWS EC2 Java App!";
+        return "✅ Hello from AWS EC2 Java App12333!";
     }
 
     @GetMapping("/health")
@@ -13,3 +13,4 @@ public class HelloController {
         return "Application is running fine!";
     }
 }
+
